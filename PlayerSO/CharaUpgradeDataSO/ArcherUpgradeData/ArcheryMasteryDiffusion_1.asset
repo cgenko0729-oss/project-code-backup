@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b835db5998d7c4582d319fafb35730, type: 3}
+  m_Name: ArcheryMasteryDiffusion_1
+  m_EditorClassIdentifier: 
+  dataId: ArcheryMasteryDiffusion_1
+  upgradeType: 23
+  jobId: 2
+  buffParam:
+  - buffType: 19
+    amount: 1
+  unlockCoin: 3000
+  isUnlocked: 0
+  enableUnlock: 0
+  requiredUpgrade: {fileID: 11400000, guid: fea137951cc2d284a9b35a7038d69798, type: 2}
+  exclusionUpgrades: []

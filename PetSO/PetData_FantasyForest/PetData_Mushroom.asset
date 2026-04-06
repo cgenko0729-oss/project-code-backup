@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67238c24ae533dd4eaa8ee58b46ec28a, type: 3}
+  m_Name: PetData_Mushroom
+  m_EditorClassIdentifier: 
+  petType: 4
+  race: 0
+  petMonsterType: 1
+  petName: "\u30A2\u30E9\u30A4\u30D6\u30D1\u30F3\u30B5"
+  petIcon: {fileID: 21300000, guid: 54131906d37664b4ea56d3cb6370b2a9, type: 3}
+  petRoles: 0100000003000000
+  attackPower: 15
+  petPrefab: {fileID: 7574947200322409848, guid: 5b840bbf84308d241a2da5213f75614b, type: 3}
+  isUnlocked: 0
+  getChance: 0.5
+  hasActiveSkill: 1
+  hasPassiveSkill: 0
+  activeSkillRemainingCooldown: 128.33643
+  activeSkillTotalCooldown: 150
+  activeSkillDuration: 10
+  skillGenericCount: 0
+  skills:
+  - skilltype: 0
+    skillicon: {fileID: 21300000, guid: 670f8f04438819648a704c2fc4968db6, type: 3}
+    skillName: "\u30D2\u30FC\u30C8\u30B9\u30DD\u30A2"
+    skillDescription: "\u767A\u52D5\u3059\u308B\u306810\u79D2\u9593\u3001\n\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u653B\u6483\u529B\u304C25%\u4E0A\u6607\u3059\u308B"
+  description: "\u4E00\u5B9A\u7BC4\u56F2\u5185\u306E\u6575\u3092\u611F\u77E5\u3059\u308B\u3068\u3001\u6575\u306B\u8FD1\u3065\u304D\u653B\u6483\u3092\u3059\u308B\u3002\n"

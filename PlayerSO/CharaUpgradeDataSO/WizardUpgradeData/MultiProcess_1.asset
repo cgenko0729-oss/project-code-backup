@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b835db5998d7c4582d319fafb35730, type: 3}
+  m_Name: MultiProcess_1
+  m_EditorClassIdentifier: 
+  dataId: MultiProcess_1
+  upgradeType: 26
+  jobId: 1
+  buffParam:
+  - buffType: 4
+    amount: 1
+  unlockCoin: 2100
+  isUnlocked: 1
+  enableUnlock: 1
+  requiredUpgrade: {fileID: 11400000, guid: a081462e859f1154195d0eed9e74bf67, type: 2}
+  exclusionUpgrades: []

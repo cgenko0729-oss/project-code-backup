@@ -1,0 +1,82 @@
+using Cysharp.Threading.Tasks;
+using DG.Tweening;
+using Hellmade.Sound; //SoundManager
+using MonsterLove.StateMachine; //StateMachine
+using QFSW.MOP2;                //Object Pool
+using System.Collections.Generic;
+using TigerForge;               //EventManager
+using TMPro;    
+using UnityEngine;   
+
+public class AddAttackPerFinalSkillEffect : UpgradeEffectBase
+{
+    [SerializeField,Header("í«â¡çUåÇÇÃPrefabÉIÉuÉWÉFÉNÉg")]
+    private GameObject addAttackPrefab;
+
+    [Header("í«â¡çUåÇÇÃî≠ê∂âÒêîÇÃåvéZ")]
+    [SerializeField,Tooltip("ëùâ¡Ç…ïKóvÇ»ìGåÇîjêîÇÃäÓëbíl")]
+    private int addEnemyKillNum = 0;
+    [SerializeField,Tooltip("ç≈ëÂëùâ¡êî")]
+    private int addAttackMaxNum = 0;
+
+    [Header("åvéZìríÜÇÃílÇÃämîFóp")]
+    [SerializeField]private int nextAddEnemyKillNum = 0;    // éüÇÃâÒêîëùâ¡Ç…ïKóvÇ»ìGåÇîjêî
+    [SerializeField]private int addAttackNum = 0;           // í«â¡çUåÇÇÃâÒêî
+
+    public float skillDamage = 0;
+    private EnemyManager enemyManagerInst;  // EnemyManagerÇÃÉCÉìÉXÉ^ÉìÉX
+
+    public override void EffectUpdate()
+    {
+        if(addEnemyKillNum == 0) { return; }
+        if (enemyManagerInst == null)
+        {
+#if UNITY_EDITOR
+            Debug.Log("EnemyManagerÇÃÉCÉìÉXÉ^ÉìÉXÇ™NULLÇ≈Ç∑");
+#endif
+            return;
+        }
+
+        // í«â¡çUåÇÇÃî≠ê∂âÒêîÇ™ç≈ëÂêîÇ…ìûíBÇµÇƒÇ¢ÇÈÇ»ÇÁåvéZÇçsÇÌÇ»Ç¢
+        if(addAttackNum >= addAttackMaxNum) { return; }
+
+        if(enemyManagerInst.allEnemyKillNum >= nextAddEnemyKillNum)
+        {
+            addAttackNum++;
+
+            nextAddEnemyKillNum +=
+                addEnemyKillNum * addAttackNum;
+        }
+    }
+
+    public override void CanEnableBuff()
+    {
+        isEnable = BuffManager.Instance.isAddAttackPerFinalSkillEnabled;
+
+        if(isEnable)
+        {
+            ActiveBuffManager.Instance.SetStacks(
+                TraitType.OwlSkill3_TenshionUp, 0);
+        }
+
+        nextAddEnemyKillNum = 0;
+        addAttackNum = 0;
+        enemyManagerInst = EnemyManager.Instance;   
+    }
+
+    public override bool ActiveBuff(Vector3 effectPos,float damageAmout)
+    {
+        if(addAttackPrefab == null) { return false; }
+
+        // í«â¡çUåÇÇî≠ê∂Ç≥ÇπÇÈ
+        var effect = Instantiate<GameObject>
+            (addAttackPrefab,effectPos,Quaternion.identity);
+        var controller = effect.GetComponent<AddAttackEffectStarController>();
+        controller.SpawnEffect(damageAmout / 2, addAttackNum * 0.4f);
+
+        ActiveBuffManager.Instance.SetStacks(
+                TraitType.OwlSkill3_TenshionUp, addAttackNum);
+
+        return false;
+    }
+}

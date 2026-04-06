@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67238c24ae533dd4eaa8ee58b46ec28a, type: 3}
+  m_Name: PetData_SpiderElite
+  m_EditorClassIdentifier: 
+  petType: 7
+  race: 1
+  petMonsterType: 1
+  petName: "\u30EB\u30FC\u30AF\u30B9\u30D1\u30A4\u30C0\u30FC"
+  petIcon: {fileID: 21300000, guid: e1db4d071203aa241ba12751d0abb441, type: 3}
+  petRoles: 01000000
+  attackPower: 25
+  petPrefab: {fileID: 8224661262645050877, guid: 815515d00abb02c44a11150d58f8f9e7, type: 3}
+  isUnlocked: 0
+  getChance: 3
+  hasActiveSkill: 0
+  hasPassiveSkill: 1
+  activeSkillRemainingCooldown: 0
+  activeSkillTotalCooldown: 0
+  activeSkillDuration: 0
+  skillGenericCount: 0
+  skills:
+  - skilltype: 1
+    skillicon: {fileID: 21300000, guid: 02ff39d7a0dbe2548b40797650fa8375, type: 3}
+    skillName: "\u30D1\u30C3\u30AF\u30CF\u30F3\u30BF\u30FC"
+    skillDescription: "\u4ED6\u306E\u300C\u30A4\u30F3\u30BB\u30AF\u30C8\u300D1\u4F53\u306B\u3064\u304D\u3001\n\u653B\u6483\u529B\u304C100%\u4E0A\u6607\u3059\u308B\u3002\n\u4ED6\u306E\u300C\u30A4\u30F3\u30BB\u30AF\u30C8\u300D\u304C2\u4F53\u3044\u308B\u5834\u5408\u3001\u66F4\u306B\u4E0E\u3048\u308B\u30C0\u30E1\u30FC\u30B8\u304C2\u500D\u306B\u306A\u308B\u3002"
+  description: "\u4E00\u5B9A\u7BC4\u56F2\u5185\u306E\u6575\u3092\u611F\u77E5\u3059\u308B\u3068\u3001\u6575\u306B\u8FD1\u3065\u304D\u653B\u6483\u3092\u3059\u308B\u3002\n\u30DC\u30B9\u306B\u306F\u4E0E\u3048\u308B\u30C0\u30E1\u30FC\u30B8\u304C\u5897\u52A0\u3059\u308B\u3002\n"

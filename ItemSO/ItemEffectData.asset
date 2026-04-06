@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d05c45eb33454047b2e83146315536a, type: 3}
+  m_Name: ItemEffectData
+  m_EditorClassIdentifier: 
+  healingEffect: {fileID: 1042361525996828, guid: d4cf53be1e0663b439333cc9e2c3d9a1, type: 3}
+  powUpEffect: {fileID: 1260984136241199202, guid: 07df0dde8c6d7f54db97f69b3110ba46, type: 3}
+  expAbsorptionEffect: {fileID: 5846667051682083917, guid: 64bf98b26c9641d428e567be5556a38c, type: 3}
+  spdUpEffect: {fileID: 110476, guid: a8e754876ec87b94997c39c4cf63a565, type: 3}
+  getCoinEffect: {fileID: 1211592783823396, guid: 3ccfda2ae8a9afd4bb2fc5937fd65992, type: 3}
+  getSwapOrbEffect: {fileID: 8832710976538346180, guid: e4ca822b0df5ef445bc0725d04921ce0, type: 3}
+  getForgeOrbEffect: {fileID: 8832710976538346180, guid: e4ca822b0df5ef445bc0725d04921ce0, type: 3}
+  getRerollOrbEffect: {fileID: 8832710976538346180, guid: e4ca822b0df5ef445bc0725d04921ce0, type: 3}
+  getInvincbleEffect: {fileID: 138498, guid: 3367b5b152eb3834698722d3ddef883a, type: 3}

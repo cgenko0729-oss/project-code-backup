@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67238c24ae533dd4eaa8ee58b46ec28a, type: 3}
+  m_Name: PetData_Cactas
+  m_EditorClassIdentifier: 
+  petType: 16
+  race: 0
+  petMonsterType: 1
+  petName: "\u30AB\u30AF\u30C8\u30A6\u30B9"
+  petIcon: {fileID: 21300000, guid: cf40c3965d2e5774ab5001829ea8549f, type: 3}
+  petRoles: 0100000004000000
+  attackPower: 25
+  petPrefab: {fileID: 4356911038677017788, guid: 79dfcbf35cc93fe41afd7e416cadf58e, type: 3}
+  isUnlocked: 0
+  getChance: 0.4
+  petMap: 4
+  hasActiveSkill: 0
+  hasPassiveSkill: 1
+  activeSkillRemainingCooldown: 0
+  activeSkillTotalCooldown: 0
+  activeSkillDuration: 0
+  skillGenericCount: 0
+  skills:
+  - skilltype: 1
+    skillicon: {fileID: 21300000, guid: 564dbe387a72852499d466d9f2162928, type: 3}
+    skillName: "\u7802\u68D8\u306E\u58C1"
+    skillDescription: "\u6575\u304C\u3053\u306E\u30DA\u30C3\u30C8\u306B\u89E6\u308C\u308B\u3068\u3001\u305D\u306E\u6575\u3092\u5439\u304D\u98DB\u3070\u3059\u3002"
+  description: "\u4E00\u5B9A\u7BC4\u56F2\u5185\u306E\u6575\u3092\u611F\u77E5\u3059\u308B\u3068\u3001\u6575\u306B\u8FD1\u3065\u304D\u653B\u6483\u3092\u3059\u308B\u3002\u6575\u3084\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u58C1\u3068\u306A\u308A\u3001\u9032\u8DEF\u3092\u59A8\u5BB3\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u308B\u3002"

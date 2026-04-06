@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67238c24ae533dd4eaa8ee58b46ec28a, type: 3}
+  m_Name: PetData_MummyLord
+  m_EditorClassIdentifier: 
+  petType: 25
+  race: 3
+  petMonsterType: 1
+  petName: "\u30DB\u30ED\u30A6\u30ED\u30FC\u30C9"
+  petIcon: {fileID: 21300000, guid: a986e569062aad94f9cbe80e5d190915, type: 3}
+  petRoles: 
+  attackPower: 0
+  petPrefab: {fileID: 4965504633396147027, guid: 359256480665ad54a9d2801a35b334c8, type: 3}
+  isUnlocked: 1
+  getChance: 2.5
+  petMap: 5
+  hasActiveSkill: 0
+  hasPassiveSkill: 1
+  activeSkillRemainingCooldown: 0
+  activeSkillTotalCooldown: 0
+  activeSkillDuration: 0
+  skillGenericCount: 0
+  skills:
+  - skilltype: 1
+    skillicon: {fileID: 21300000, guid: 5583c888023aa6649987640e94c45383, type: 3}
+    skillName: "\u30D5\u30A7\u30A4\u30AF\u30AD\u30F3\u30B0\u30C0\u30E0"
+    skillDescription: "2\u756A\u76EE\u306B\u9078\u3093\u3060\u30DA\u30C3\u30C8\u3092\u8907\u88FD\u3059\u308B\u3002\n(\u81EA\u8EAB\u306F\u5BFE\u8C61\u5916)\r\n\u81EA\u8EAB\u306E\u653B\u6483\u529B\u306F\u3001\n\u8907\u88FD\u5BFE\u8C61\u3068\u540C\u3058\u6570\u5024\u306B\u306A\u308B\u3002"
+  description: hollow

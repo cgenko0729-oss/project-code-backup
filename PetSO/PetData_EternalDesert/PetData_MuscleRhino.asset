@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67238c24ae533dd4eaa8ee58b46ec28a, type: 3}
+  m_Name: PetData_MuscleRhino
+  m_EditorClassIdentifier: 
+  petType: 42
+  race: 0
+  petMonsterType: 3
+  petName: "\u30B5\u30A4\u30B3\u30FB\u30E9\u30A4\u30CE"
+  petIcon: {fileID: 21300000, guid: 5b52a51ab08cd85468da90772ebe5e49, type: 3}
+  petRoles: 0200000005000000
+  attackPower: 55
+  petPrefab: {fileID: 1637935862494926048, guid: ecda9d580b014a04381c32e05f69430f, type: 3}
+  isUnlocked: 0
+  getChance: 0
+  petMap: 7
+  hasActiveSkill: 0
+  hasPassiveSkill: 1
+  activeSkillRemainingCooldown: 0
+  activeSkillTotalCooldown: 0
+  activeSkillDuration: 0
+  skillGenericCount: 0
+  skills:
+  - skilltype: 1
+    skillicon: {fileID: 21300000, guid: ee7e1b461b345374880cc62e68a20d60, type: 3}
+    skillName: "\u30B0\u30E9\u30D3\u30C8\u30F3\u30BE\u30FC\u30F3"
+    skillDescription: "\u6575\u306E\u4F4D\u7F6E\u306B\u901F\u5EA6\u304C75%\u6E1B\u5C11\u3059\u308B\n\u91CD\u529B\u30BE\u30FC\u30F3\u3092\u751F\u6210\u3059\u308B\u3002"
+  description: "\u30E0\u30AD\u30E0\u30AD\u30B5\u30A4"

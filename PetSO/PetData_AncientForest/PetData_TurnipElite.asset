@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67238c24ae533dd4eaa8ee58b46ec28a, type: 3}
+  m_Name: PetData_TurnipElite
+  m_EditorClassIdentifier: 
+  petType: 13
+  race: 0
+  petMonsterType: 1
+  petName: "\u30AB\u30D6\u30CA\u30A4\u30C8"
+  petIcon: {fileID: 21300000, guid: e51c806e307859144b1d45f0ca681973, type: 3}
+  petRoles: 0100000005000000
+  attackPower: 5
+  petPrefab: {fileID: 3844458391286630713, guid: b6c158b7f4f3af44aaeb8e59334d8fdf, type: 3}
+  isUnlocked: 0
+  getChance: 3
+  petMap: 2
+  hasActiveSkill: 0
+  hasPassiveSkill: 1
+  activeSkillRemainingCooldown: 0
+  activeSkillTotalCooldown: 0
+  activeSkillDuration: 0
+  skillGenericCount: 0
+  skills:
+  - skilltype: 1
+    skillicon: {fileID: 21300000, guid: 77b2a7d82b39732449a81f3d58cdf2c2, type: 3}
+    skillName: "\u9A0E\u58EB\u306E\u91CD\u5727"
+    skillDescription: "\u3053\u306E\u30DA\u30C3\u30C8\u306E\u5468\u308A\u306B\n\u30D5\u30A3\u30FC\u30EB\u30C9\u304C\u5C55\u958B\u3055\u308C\u3001\n\u305D\u306E\u30D5\u30A3\u30FC\u30EB\u30C9\u306E\u4E2D\u306B\u5165\u3063\u305F\u6575\u306F\u3001\n\u79FB\u52D5\u901F\u5EA6\u304C25%\u4F4E\u4E0B\u3059\u308B\u3002"
+  description: "\u4E00\u5B9A\u7BC4\u56F2\u5185\u306E\u6575\u3092\u611F\u77E5\u3059\u308B\u3068\u3001\u6575\u306B\u8FD1\u3065\u304D\u653B\u6483\u3092\u3059\u308B\u3002\n\u653B\u6483\u9593\u9694\u304C\u975E\u5E38\u306B\u77ED\u3044\u3002"

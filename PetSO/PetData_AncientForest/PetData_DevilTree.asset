@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67238c24ae533dd4eaa8ee58b46ec28a, type: 3}
+  m_Name: PetData_DevilTree
+  m_EditorClassIdentifier: 
+  petType: 10
+  race: 0
+  petMonsterType: 1
+  petName: "\u30A6\u30A9\u30FC\u30EB\u30C8\u30EC\u30F3\u30C8"
+  petIcon: {fileID: 21300000, guid: bdada0aebfed74f4682c636ec15bdcee, type: 3}
+  petRoles: 0100000004000000
+  attackPower: 20
+  petPrefab: {fileID: 3724572471564977762, guid: 9a8e74e480adbd54d8683ac160f60f06, type: 3}
+  isUnlocked: 0
+  getChance: 0.5
+  petMap: 2
+  hasActiveSkill: 1
+  hasPassiveSkill: 0
+  activeSkillRemainingCooldown: 96.0629
+  activeSkillTotalCooldown: 120
+  activeSkillDuration: 10
+  skillGenericCount: 0
+  skills:
+  - skilltype: 0
+    skillicon: {fileID: 21300000, guid: 98a0227a5df8ff6499bc40e0d6d0533e, type: 3}
+    skillName: "\u30A6\u30C3\u30C9\u30B7\u30FC\u30EB\u30C9"
+    skillDescription: "\u767A\u52D5\u3059\u308B\u306810\u79D2\u9593\u3001\n\u6575\u304B\u3089\u306E\u53D7\u3051\u308B\u30C0\u30E1\u30FC\u30B8\u309220%\u8EFD\u6E1B\u3059\u308B\u3002"
+  description: "\u4E00\u5B9A\u7BC4\u56F2\u5185\u306E\u6575\u3092\u611F\u77E5\u3059\u308B\u3068\u3001\u6575\u306B\u8FD1\u3065\u304D\u653B\u6483\u3092\u3059\u308B\u3002\u6575\u3084\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u58C1\u3068\u306A\u308A\u3001\u9032\u8DEF\u3092\u59A8\u5BB3\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u308B\u3002"

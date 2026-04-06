@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65f32515a96e0f458c5e6e8c2d70ff8, type: 3}
+  m_Name: WizardUpgradeDataBase
+  m_EditorClassIdentifier: 
+  jobId: 1
+  useTotalCoin: 1000
+  Upgrades:
+  - {fileID: 11400000, guid: ddf426806f808d040a36e8dd32ba2af2, type: 2}
+  - {fileID: 11400000, guid: a081462e859f1154195d0eed9e74bf67, type: 2}
+  - {fileID: 11400000, guid: 436644d86c10c414aac53b943a02c3a0, type: 2}
+  - {fileID: 11400000, guid: 56786218ba9738f49ab8f0177756914f, type: 2}
+  - {fileID: 11400000, guid: 57e5c859e2d9f7e47b8ef0925d33097f, type: 2}
+  - {fileID: 11400000, guid: dac3c60194bfa444c87ad065f233a2ad, type: 2}
+  - {fileID: 11400000, guid: d9683f1389e98b349a41ce3d43cd3936, type: 2}
+  - {fileID: 11400000, guid: f8761bf653f2dc34cbf136b9c6aee7ae, type: 2}
+  - {fileID: 11400000, guid: 05cccbbfdc3c2954ba0f3956d22a0aaf, type: 2}
+  - {fileID: 11400000, guid: c565ab6be95a357488a06eaaf43d63db, type: 2}

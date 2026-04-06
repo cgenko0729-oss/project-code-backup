@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67238c24ae533dd4eaa8ee58b46ec28a, type: 3}
+  m_Name: PetData_Scarabro
+  m_EditorClassIdentifier: 
+  petType: 17
+  race: 1
+  petMonsterType: 1
+  petName: "\u30EA\u30D9\u30F3\u30B8\u30A4\u30F3\u30BB\u30AF\u30C8"
+  petIcon: {fileID: 21300000, guid: 2b0e2aa0edae8334ab7f25acc0c99cec, type: 3}
+  petRoles: 01000000
+  attackPower: 18
+  petPrefab: {fileID: 3322798721642117843, guid: 68b24c72b0bb2344f93ccb3d913d0783, type: 3}
+  isUnlocked: 1
+  getChance: 6.5
+  petMap: 4
+  hasActiveSkill: 0
+  hasPassiveSkill: 1
+  activeSkillRemainingCooldown: 0
+  activeSkillTotalCooldown: 0
+  activeSkillDuration: 0
+  skillGenericCount: 0
+  skills:
+  - skilltype: 1
+    skillicon: {fileID: 21300000, guid: 47d5520eac37967468ed191d24a620bb, type: 3}
+    skillName: "\u5916\u9AA8\u683C\u5F37\u5316"
+    skillDescription: "\u30D7\u30EC\u30A4\u30E4\u30FC\u304C\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u308B\u5EA6\u3001\n10\u79D2\u9593\u653B\u6483\u529B\u3068\u653B\u6483\u901F\u5EA6\u304C\n50%\u4E0A\u6607\u3059\u308B\u3002\n(\u3053\u306E\u52B9\u679C\u306F\u91CD\u306D\u639B\u3051\u53EF\u80FD)"
+  description: "\u6226\u3046"

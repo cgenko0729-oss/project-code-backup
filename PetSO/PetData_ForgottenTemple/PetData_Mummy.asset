@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67238c24ae533dd4eaa8ee58b46ec28a, type: 3}
+  m_Name: PetData_Mummy
+  m_EditorClassIdentifier: 
+  petType: 20
+  race: 3
+  petMonsterType: 1
+  petName: "\u30C0\u30DF\u30FC"
+  petIcon: {fileID: 21300000, guid: e9bc4512d5450e6458d4c93154f05f22, type: 3}
+  petRoles: 01000000
+  attackPower: 21
+  petPrefab: {fileID: 5569931981614493425, guid: 3dac2ac53be75e045bcd1c4a23d6a5c4, type: 3}
+  isUnlocked: 1
+  getChance: 0.07
+  petMap: 5
+  hasActiveSkill: 0
+  hasPassiveSkill: 1
+  activeSkillRemainingCooldown: 0
+  activeSkillTotalCooldown: 0
+  activeSkillDuration: 0
+  skillGenericCount: 0
+  skills:
+  - skilltype: 1
+    skillicon: {fileID: 21300000, guid: 11563a4edeee3bb4dad78ca89956d570, type: 3}
+    skillName: "\u546A\u308F\u308C\u3057\u8ECD\u52E2"
+    skillDescription: "2\u5206\u6BCE\u306B\u81EA\u5206\u306E\u5206\u8EAB\u30921\u4F53\u53EC\u559A\u3059\u308B\u3002\n(\u6700\u59274\u4F53)"
+  description: tatakaou

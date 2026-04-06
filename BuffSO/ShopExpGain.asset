@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b61b715414f9f704cb1b661060e3f755, type: 3}
+  m_Name: ShopExpGain
+  m_EditorClassIdentifier: 
+  itemType: 2
+  displayName: "Exp\u7372\u5F97\u91CF"
+  descriptionFormat: "Exp\u7372\u5F97\u91CF\u3092 {0}%\u4E0A\u304C\u308B \n(\u5408\u8A08
+    +{1}%)"
+  icon: {fileID: 21300000, guid: c32ee287cfff57944ab449e420b7cfca, type: 3}
+  levels:
+  - needMoney: 100
+    addAmount: 2
+  - needMoney: 200
+    addAmount: 2
+  - needMoney: 300
+    addAmount: 2
+  - needMoney: 400
+    addAmount: 2
+  - needMoney: 500
+    addAmount: 2
+  - needMoney: 600
+    addAmount: 2
+  - needMoney: 700
+    addAmount: 2
+  - needMoney: 800
+    addAmount: 2
+  - needMoney: 900
+    addAmount: 2
+  - needMoney: 1000
+    addAmount: 2

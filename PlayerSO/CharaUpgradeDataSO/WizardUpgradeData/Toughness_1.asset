@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b835db5998d7c4582d319fafb35730, type: 3}
+  m_Name: Toughness_1
+  m_EditorClassIdentifier: 
+  dataId: Toughness_1
+  upgradeType: 5
+  jobId: 1
+  buffParam:
+  - buffType: 8
+    amount: 5
+  unlockCoin: 480
+  isUnlocked: 1
+  enableUnlock: 1
+  requiredUpgrade: {fileID: 0}
+  exclusionUpgrades: []

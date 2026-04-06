@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67238c24ae533dd4eaa8ee58b46ec28a, type: 3}
+  m_Name: PetData_Kappa
+  m_EditorClassIdentifier: 
+  petType: 1
+  race: 0
+  petMonsterType: 0
+  petName: "\u30D2\u30ED\u30A4\u30AB\u30EF\u30C3\u30D1"
+  petIcon: {fileID: 21300000, guid: 26c653695bd603b4d8606792349ea683, type: 3}
+  petRoles: 0300000006000000
+  attackPower: 0
+  petPrefab: {fileID: 8828384287578933347, guid: 5f77d4cd23c457b4eac779bffa422e96, type: 3}
+  isUnlocked: 1
+  getChance: 0
+  petMap: 0
+  hasActiveSkill: 0
+  hasPassiveSkill: 1
+  activeSkillRemainingCooldown: 0
+  activeSkillTotalCooldown: 0
+  activeSkillDuration: 0
+  skillGenericCount: 0
+  skills:
+  - skilltype: 1
+    skillicon: {fileID: 21300000, guid: f37e401e4a6744c49a34d5cbdd799289, type: 3}
+    skillName: "\u3082\u306E\u62FE\u3044"
+    skillDescription: "\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u5468\u308A\u306B\u3042\u308BEXP\u30AF\u30EA\u30B9\u30BF\u30EB\u3092\u56DE\u53CE\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u308B\u3002"
+  description: "\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u5468\u308A\u306B\u3042\u308BEXP\u30AF\u30EA\u30B9\u30BF\u30EB\u3092\u56DE\u53CE\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u308B\u304C\u3001\u653B\u6483\u306F\u4E00\u5207\u3057\u306A\u3044\u3002"

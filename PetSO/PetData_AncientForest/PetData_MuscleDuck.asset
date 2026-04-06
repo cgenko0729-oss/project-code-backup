@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67238c24ae533dd4eaa8ee58b46ec28a, type: 3}
+  m_Name: PetData_MuscleDuck
+  m_EditorClassIdentifier: 
+  petType: 41
+  race: 0
+  petMonsterType: 3
+  petName: "\u30DE\u30B9\u30BF\u30FC\u30FB\u30C0\u30C3\u30AF"
+  petIcon: {fileID: 21300000, guid: 9450e96de36e5f7468d99210fe93d290, type: 3}
+  petRoles: 01000000
+  attackPower: 60
+  petPrefab: {fileID: 3415882277719152479, guid: 8589919ab3a40a745b9eb25070d2bffb, type: 3}
+  isUnlocked: 0
+  getChance: 0
+  petMap: 7
+  hasActiveSkill: 0
+  hasPassiveSkill: 1
+  activeSkillRemainingCooldown: 0
+  activeSkillTotalCooldown: 0
+  activeSkillDuration: 0
+  skillGenericCount: 0
+  skills:
+  - skilltype: 1
+    skillicon: {fileID: 21300000, guid: 1adc1e9386b9d57438ddc7c80a7882ab, type: 3}
+    skillName: "\u77AC\u96F7\u65AC"
+    skillDescription: "\u30D7\u30EC\u30A4\u30E4\u30FC\u304C\u653B\u6483\u3092\u53D7\u3051\u308B\u3068\u3001\u305D\u306E\u653B\u6483\u3092\u53D7\u3051\u6D41\u3057\u3001\n\u5F37\u529B\u306A\u653B\u6483\u3067\u53CD\u6483\u3059\u308B\u3002\n(\u30AF\u30FC\u30EB\u30BF\u30A4\u30E0:30\u79D2)"
+  description: "\u30DE\u30C3\u30B9\u30EB\u4E2D\u30DC\u30B9"

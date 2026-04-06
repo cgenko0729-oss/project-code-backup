@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67238c24ae533dd4eaa8ee58b46ec28a, type: 3}
+  m_Name: PetData_Bat
+  m_EditorClassIdentifier: 
+  petType: 3
+  race: 0
+  petMonsterType: 1
+  petName: "\u30D3\u30C3\u30B0\u30D8\u30C3\u30C9\u30D0\u30C3\u30C8"
+  petIcon: {fileID: 21300000, guid: 09c551899d3ab274289c106496d9288e, type: 3}
+  petRoles: 0100000003000000
+  attackPower: 10
+  petPrefab: {fileID: 5122791751604650877, guid: 97811476ecee3b442940dbed8cc0923b, type: 3}
+  isUnlocked: 0
+  getChance: 0.6
+  petMap: 1
+  hasActiveSkill: 0
+  hasPassiveSkill: 1
+  activeSkillRemainingCooldown: 0
+  activeSkillTotalCooldown: 0
+  activeSkillDuration: 0
+  skillGenericCount: 0
+  skills:
+  - skilltype: 1
+    skillicon: {fileID: 21300000, guid: 62e3e4dffe5e69b4e8bef70dfcc9a363, type: 3}
+    skillName: "\u5438\u8840"
+    skillDescription: "\u3053\u306E\u30DA\u30C3\u30C8\u304C\u6575\u306B\u653B\u6483\u3092\u5F53\u3066\u308B\u3068\u3001\n10%\u306E\u78BA\u7387\u3067\u30D7\u30EC\u30A4\u30E4\u30FC\u306EHP\u304C\n5\u56DE\u5FA9\u3059\u308B\u3002"
+  description: "\u4E00\u5B9A\u7BC4\u56F2\u5185\u306E\u6575\u3092\u611F\u77E5\u3059\u308B\u3068\u3001\u6575\u306B\u8FD1\u3065\u304D\u653B\u6483\u3092\u3059\u308B\u3002\n\u653B\u6483\u304C\u5F53\u305F\u308B\u3068\u78BA\u7387\u3067\u30D7\u30EC\u30A4\u30E4\u30FC\u306EHP\u304C\u56DE\u5FA9\u3059\u308B\u3002"

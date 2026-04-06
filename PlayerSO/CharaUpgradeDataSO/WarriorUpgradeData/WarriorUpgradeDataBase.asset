@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65f32515a96e0f458c5e6e8c2d70ff8, type: 3}
+  m_Name: WarriorUpgradeDataBase
+  m_EditorClassIdentifier: 
+  jobId: 3
+  useTotalCoin: 0
+  Upgrades:
+  - {fileID: 11400000, guid: 5a7e6547f60e14641863192069b5b451, type: 2}
+  - {fileID: 11400000, guid: 091941b58a735624c86056cbd69a00e4, type: 2}
+  - {fileID: 11400000, guid: 2dd6aca6f8959714aa00aa9d4f81dd0e, type: 2}
+  - {fileID: 11400000, guid: aa71c6019b9ea06459042a022c8f6265, type: 2}
+  - {fileID: 11400000, guid: b777629b2bfb7a542a6d3f501fc8edaf, type: 2}
+  - {fileID: 11400000, guid: 1ea392520e773304c99ba412d5b81b09, type: 2}
+  - {fileID: 11400000, guid: 22d1209d8ff851e4c820a0bb108f263c, type: 2}
+  - {fileID: 11400000, guid: 6ef52758ce972b0439993dc66bf8ca65, type: 2}
+  - {fileID: 11400000, guid: 392670d2d907a134eab6d975a5665817, type: 2}
+  - {fileID: 11400000, guid: d0a8a3e40774d174799ad2707b70f9e4, type: 2}

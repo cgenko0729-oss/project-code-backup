@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65f32515a96e0f458c5e6e8c2d70ff8, type: 3}
+  m_Name: ArcherUpgradeDataBase
+  m_EditorClassIdentifier: 
+  jobId: 2
+  useTotalCoin: 0
+  Upgrades:
+  - {fileID: 11400000, guid: 5596b359c97fcef4fbe34cea01ad110e, type: 2}
+  - {fileID: 11400000, guid: 7f7fc57427d274746ae75406f914daa6, type: 2}
+  - {fileID: 11400000, guid: d38a1447c997411408a34a59d008ec9d, type: 2}
+  - {fileID: 11400000, guid: fea137951cc2d284a9b35a7038d69798, type: 2}
+  - {fileID: 11400000, guid: cfb13ff6975bc7b4ab9637031d7c8222, type: 2}
+  - {fileID: 11400000, guid: 370525da908ab054ea5d7fb35a50319b, type: 2}
+  - {fileID: 11400000, guid: f73c9015429e0ef4d8b3587fec016567, type: 2}
+  - {fileID: 11400000, guid: 45dcf927728c73b49bfa42fd6ecb0bed, type: 2}
+  - {fileID: 11400000, guid: c2cec716f31e3c947a3214f7a8f65786, type: 2}
+  - {fileID: 11400000, guid: 1e06c7519f4ee574dbb4a7908f70483f, type: 2}

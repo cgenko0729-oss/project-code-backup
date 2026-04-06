@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67238c24ae533dd4eaa8ee58b46ec28a, type: 3}
+  m_Name: PetData_BossSpiderQueen
+  m_EditorClassIdentifier: 
+  petType: 44
+  race: 1
+  petMonsterType: 3
+  petName: "\u30AF\u30E2\u30AF\u30A4\u30FC\u30F3"
+  petIcon: {fileID: 21300000, guid: 0761377d642c71642a635e770e15c939, type: 3}
+  petRoles: 0200000005000000
+  attackPower: 80
+  petPrefab: {fileID: 4742827763591222752, guid: a2e4ff02a6b0f6d4dadca4a5b5002901, type: 3}
+  isUnlocked: 0
+  getChance: 0
+  petMap: 8
+  hasActiveSkill: 0
+  hasPassiveSkill: 1
+  activeSkillRemainingCooldown: 0
+  activeSkillTotalCooldown: 0
+  activeSkillDuration: 0
+  skillGenericCount: 0
+  skills:
+  - skilltype: 1
+    skillicon: {fileID: 21300000, guid: af60b6f506f07944aa46c9d50e4af856, type: 3}
+    skillName: "\u30AF\u30A4\u30FC\u30F3\u30BA\u30AF\u30EC\u30A4\u30C9\u30EB"
+    skillDescription: "\u3053\u306E\u30DA\u30C3\u30C8\u306E\u653B\u6483\u304C\u6575\u306B\u5F53\u305F\u308B\u3068\u3001\n5\u79D2\u9593\u901F\u5EA6\u304C50%\u4F4E\u4E0B\u3059\u308B\u3002\n\u6226\u95D8\u958B\u59CB\u6642\u3001\u7E6D\u3092\u751F\u6210\u3057\u3001\n1\u5206\u6BCE\u306B\u30C0\u30FC\u30AF\u30B9\u30D1\u30A4\u30C0\u30FC\u3092\u53EC\u559A\u3059\u308B\u3002\n(\u6700\u592710\u4F53)"
+  description: "\u30DC\u30B91"

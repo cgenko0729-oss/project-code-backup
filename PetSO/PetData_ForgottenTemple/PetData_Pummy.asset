@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67238c24ae533dd4eaa8ee58b46ec28a, type: 3}
+  m_Name: PetData_Pummy
+  m_EditorClassIdentifier: 
+  petType: 23
+  race: 3
+  petMonsterType: 1
+  petName: "\u30D5\u30E9\u30F3\u30B1\u30F3"
+  petIcon: {fileID: 21300000, guid: 40a852f492c31f64dbc866dd10b6c6cd, type: 3}
+  petRoles: 01000000
+  attackPower: 15
+  petPrefab: {fileID: 5395138431302328736, guid: 355da0798659dbb48b91b7353d8bb596, type: 3}
+  isUnlocked: 0
+  getChance: 6
+  petMap: 5
+  hasActiveSkill: 0
+  hasPassiveSkill: 1
+  activeSkillRemainingCooldown: 0
+  activeSkillTotalCooldown: 0
+  activeSkillDuration: 0
+  skillGenericCount: 0
+  skills:
+  - skilltype: 1
+    skillicon: {fileID: 21300000, guid: c09d527b2d1e3d5468377504783c93fc, type: 3}
+    skillName: "\u30C7\u30C3\u30C9\u30FB\u30D2\u30FC\u30C8"
+    skillDescription: "\u653B\u6483\u3059\u308B\u5EA6\u3001\u653B\u6483\u529B\u3068\u653B\u6483\u901F\u5EA6\u304C\n1%\u4E0A\u6607\u3059\u308B\u3002(\u6700\u592750%)\n\u6575\u306B\u3068\u3069\u3081\u3092\u523A\u3059\u5EA6\u3001\u653B\u6483\u529B\u3068\u653B\u6483\u901F\u5EA6\u304C\n5%\u4E0A\u6607\u3059\u308B\u3002(\u6700\u592750%)"
+  description: kennka

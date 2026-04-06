@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67238c24ae533dd4eaa8ee58b46ec28a, type: 3}
+  m_Name: PetData_BossFlameDragonKing
+  m_EditorClassIdentifier: 
+  petType: 46
+  race: 2
+  petMonsterType: 3
+  petName: "\u7802\u6F20\u306E\u708E\u738B\u9F8D"
+  petIcon: {fileID: 21300000, guid: 6c3313f46f34d3d4d90e50f9e417e7d7, type: 3}
+  petRoles: 010000000200000005000000
+  attackPower: 90
+  petPrefab: {fileID: 5857216005384443829, guid: 75b7b5ab38e8ac54a9ddb6b8cc0034c3, type: 3}
+  isUnlocked: 0
+  getChance: 0
+  petMap: 8
+  hasActiveSkill: 1
+  hasPassiveSkill: 0
+  activeSkillRemainingCooldown: 0
+  activeSkillTotalCooldown: 300
+  activeSkillDuration: 0
+  skillGenericCount: 0
+  skills:
+  - skilltype: 0
+    skillicon: {fileID: 21300000, guid: 85da8af47b456c8439f8cf561c2b4da1, type: 3}
+    skillName: "\u7D42\u708E"
+    skillDescription: "\u4E0A\u7A7A\u304B\u3089\u5927\u898F\u6A21\u306E\u30D6\u30EC\u30B9\u3092\u653E\u3061\u3001\r\n\u6575\u306B\u5927\u30C0\u30E1\u30FC\u30B8\u3068\u706B\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u308B\u3002\r\n\u3053\u306E\u30A2\u30AF\u30C6\u30A3\u30D6\u30B9\u30AD\u30EB\u3067\u6575\u30921\u4F53\u5012\u3059\u5EA6\u3001\n\u30AF\u30FC\u30EB\u30BF\u30A4\u30E0\u304C5%\u77ED\u7E2E\u3055\u308C\u308B\u3002"
+  description: "\u30DC\u30B93"

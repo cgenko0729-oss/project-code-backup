@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67238c24ae533dd4eaa8ee58b46ec28a, type: 3}
+  m_Name: PetData_Scorpion
+  m_EditorClassIdentifier: 
+  petType: 22
+  race: 1
+  petMonsterType: 1
+  petName: "\u30A2\u30F3\u30D7\u30B9\u30B3\u30FC\u30D4\u30AA\u30F3"
+  petIcon: {fileID: 21300000, guid: 045406355b0b8fd43b0e565893ab5540, type: 3}
+  petRoles: 0100000003000000
+  attackPower: 5
+  petPrefab: {fileID: 811084062249484327, guid: d416cb71c89956940a7657b768311e02, type: 3}
+  isUnlocked: 1
+  getChance: 0.3
+  petMap: 5
+  hasActiveSkill: 0
+  hasPassiveSkill: 1
+  activeSkillRemainingCooldown: 0
+  activeSkillTotalCooldown: 0
+  activeSkillDuration: 0
+  skillGenericCount: 0
+  skills:
+  - skilltype: 1
+    skillicon: {fileID: 21300000, guid: cd9b9a99c11c58245a53876e10a49468, type: 3}
+    skillName: "\u30E2\u30F3\u30B9\u30BF\u30FC\u30D6\u30FC\u30B9\u30C8"
+    skillDescription: "\u4ED6\u30DA\u30C3\u30C8\u306E\u30B9\u30AD\u30EB\u6301\u7D9A\u6642\u959375%\u5897\u52A0\u3001\n\u53EC\u559A\u6570\u30921\u4F53\u5897\u52A0\u3055\u305B\u308B\u3002"
+  description: 
